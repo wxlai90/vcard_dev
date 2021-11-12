@@ -4,4 +4,4 @@
 
 > Easily create visually appealing QR Vcards
 
-<img src="https://github.com/wxlai90/vcard_dev/blob/master/screenshots/screenshot.png?raw=true" />
+<img src="https://github.com/wxlai90/vcard_dev/blob/master/screenshots/screenshot.png?raw=true" width="200px" style="margin: 0 auto;display: block;" />
