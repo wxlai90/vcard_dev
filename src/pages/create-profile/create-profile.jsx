@@ -31,11 +31,12 @@ const CreateProfile = ({ userProfile, setUserProfile, setUserPhoto }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setUserProfile(state);
-    navigate("/view");
+    navigate("/");
   };
 
   return (
     <section className="create-profile">
+      <h1>Create a profile</h1>
       <form className="create-profile__form" onSubmit={handleSubmit}>
         {vCardFields.map((field, idx) => (
           <InputText
