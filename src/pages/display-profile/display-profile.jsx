@@ -11,7 +11,7 @@ const DisplayProfile = ({ userPhoto, userProfile, userProfileQRData }) => {
 
   useEffect(() => {
     if (!userProfile) {
-      navigate("/create");
+      navigate("/vcard/create");
       return;
     }
 
