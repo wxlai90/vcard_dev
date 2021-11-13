@@ -19,6 +19,7 @@
   border: none;
   border-bottom: 1px solid #ccc;
   font-size: 1.6rem;
+  border-radius: none;
 }
 
 .input-text:focus {
