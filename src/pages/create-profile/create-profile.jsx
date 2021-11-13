@@ -35,7 +35,7 @@ const CreateProfile = ({ userProfile, setUserProfile, setUserPhoto }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setUserProfile(state);
-    navigate("/vcard");
+    navigate("/vcard/display");
   };
 
   return (

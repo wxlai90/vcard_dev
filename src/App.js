@@ -10,7 +10,8 @@ const App = () => {
   return (
     <Router>
       <Routes>
-        <Route path="/vcard" element={<DisplayProfile />} />
+        <Route path="/vcard" element={<Homepage />} />
+        <Route path="/vcard/display" element={<DisplayProfile />} />
         <Route path="/vcard/create" element={<CreateProfile />} />
       </Routes>
     </Router>

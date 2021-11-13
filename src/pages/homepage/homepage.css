@@ -1,0 +1,31 @@
+.homepage-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  height: 50vh;
+}
+
+.action-item {
+  display: inline-block;
+  padding: 1.2rem 2.4rem;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 100px;
+  background-color: tomato;
+}
+
+.action-item.ghost {
+  background-color: white;
+  color: tomato;
+  border: 1px solid tomato;
+}
+
+.action-item:hover {
+  opacity: 0.8;
+}
+
+.action-item.ghost:hover {
+  background-color: tomato;
+  color: white;
+}
