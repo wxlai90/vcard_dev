@@ -23,9 +23,13 @@ const CreateProfile = ({ userProfile, setUserProfile, setUserPhoto }) => {
 
     const blob = new Blob([file]);
 
-    const url = URL.createObjectURL(blob, { type: blob.type });
+    const reader = new FileReader();
 
-    setUserPhoto(url);
+    reader.onloadend = function () {
+      setUserPhoto(reader.result);
+    };
+
+    reader.readAsDataURL(blob);
   };
 
   const handleSubmit = (e) => {
